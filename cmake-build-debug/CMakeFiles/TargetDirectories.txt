@@ -1,0 +1,3 @@
+/home/alon/Desktop/alonproj3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alon/Desktop/alonproj3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alon/Desktop/alonproj3/cmake-build-debug/CMakeFiles/assemblerProject.dir

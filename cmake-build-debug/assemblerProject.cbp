@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="assemblerProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alon/Desktop/alonproj3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alon/Desktop/alonproj3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alon/Desktop/alonproj3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assemblerProject">
+				<Option output="/home/alon/Desktop/alonproj3/cmake-build-debug/assemblerProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alon/Desktop/alonproj3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 assemblerProject"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assemblerProject/fast">
+				<Option output="/home/alon/Desktop/alonproj3/cmake-build-debug/assemblerProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alon/Desktop/alonproj3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 assemblerProject/fast"/>
+					<CompileFile command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j3 -f &quot;/home/alon/Desktop/alonproj3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alon/Desktop/alonproj3/assembler.c">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/assembler.h">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/base.h">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/first_pass.c">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/first_pass.h">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/lists.c">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/lists.h">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/second_pass.c">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/second_pass.h">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/symbolTable.c">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/symbolTable.h">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/textAnalyze.c">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/textAnalyze.h">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/writeFiles.c">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/writeFiles.h">
+			<Option target="assemblerProject"/>
+		</Unit>
+		<Unit filename="/home/alon/Desktop/alonproj3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
